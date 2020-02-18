@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+	width:300px;
+}
+
+li {
+	list-style: none;
+}
+
+#submit {
+	display: inline-block;
+	padding: 8px 20px;
+	background-color: #400000;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	margin: 10px auto;
+	cursor: pointer;
+	float:right;
+	opacity: 0.7;
+}
+
+#submit:hover{
+	opacity: 1;
+}
+
+#submit:active{
+	opacity: 0.5;
+}

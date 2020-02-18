@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="./measure2.css">
+</head>
+<body>
+	○jQueryによるボタンの2度押し防止<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;(1度押したら2度目を押せなくする)
+<form action="#">
+	<ul>
+		<li id="name">
+			<label for="name">名前：</label><input id="name" name="name">
+		</li>
+	</ul>
+	<!-- typeがsubmitでないことに注意 -->
+	<input id="submit" type="button" value="送信">
+</form>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="./measure2.js"></script>
+</body>
+</html>
