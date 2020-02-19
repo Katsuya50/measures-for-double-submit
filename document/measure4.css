@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+li {
+	list-style: none;
+}
+
+#btn {
+	display: inline-block;
+	padding: 8px 20px;
+	background-color: #400000;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	margin: 10px 250px;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#btn:hover{
+	opacity: 1;
+}
+
+#btn:active{
+	opacity: 0.5;
+}
