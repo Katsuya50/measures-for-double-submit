@@ -7,13 +7,13 @@
 </head>
 <body>
 	○JavaScriptを用いた警告表示による2度押し防止<br>
-	<form action="#">
+	<form action="/measure2" name="myform" onSubmit="return warning()">
 		<ul>
 			<li>
 				<label for="name">名前：</label><input id="name">
 			</li>
 		</ul>
-		<input id="btn" type="button" value="送信" onClick="warning()">
+		<input id="btn" type="button" value="送信">
 	</form>
 	
 	<script src="./measure3.js"></script>
